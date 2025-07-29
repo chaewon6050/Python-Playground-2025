@@ -8,14 +8,14 @@ A space where project files and their change history are stored.
 - **Local Repository:** Located on a personal computer.
 - **Remote Repository:** Located on a server on the internet.
 
-### Branch
-A separate working space within a single project that allows multiple developers to work independently. The "master" or "main" branch typically serves as the base, and new branches are created for adding features, fixing bugs, etc.
-
 ### Fork
 The process of completely copying another user's remote repository to your own remote repository. This allows you to modify or improve the project independently without directly affecting the original.
 
 ### Clone
 The process of downloading a copy of a remote repository to your local computer (local repository). This allows you to work on all files and change history of the remote repository locally.
+
+### Branch
+A separate working space within a single project that allows multiple developers to work independently. The "master" or "main" branch typically serves as the base, and new branches are created for adding features, fixing bugs, etc.
 
 ### Staging
 An intermediate step where modified files are collected before a commit. It's the area where you select and prepare the changes you intend to commit.
