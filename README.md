@@ -12,6 +12,9 @@ This is the 'original cloud space' where I will upload all class materials and e
 ### Clone
 'Cloning' means 'downloading' your forked repository to your own computer (where VS Code is installed). Now you can directly edit the code on your computer.
 
+### Branch
+Like a branch of a tree, a 'branch' is an independent workspace that splits off from your main code. You can safely modify and experiment with code within this branch without affecting the main project.
+
 ### Commit
 When you modify and save code on your computer, 'recording' those changes to Git is called 'committing'.
 
