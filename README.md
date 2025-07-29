@@ -3,26 +3,31 @@ Learning Python basics and Pygame together with the amazing students of Samudrad
 
 ## GitHub Terms to Know
 
-### Original Repository
-This is the 'original cloud space' where I will upload all class materials and example code.
-
-### Fork
-'Forking' means making an exact 'copy' of the original repository to your personal GitHub account. You can then modify this copied repository however you like.
-
-### Clone
-'Cloning' means 'downloading' your forked repository to your own computer (where VS Code is installed). Now you can directly edit the code on your computer.
+### Repository
+A space where project files and their change history are stored.
+- **Local Repository:** Located on a personal computer.
+- **Remote Repository:** Located on a server on the internet.
 
 ### Branch
-Like a branch of a tree, a 'branch' is an independent workspace that splits off from your main code. You can safely modify and experiment with code within this branch without affecting the main project.
+A separate working space within a single project that allows multiple developers to work independently. The "master" or "main" branch typically serves as the base, and new branches are created for adding features, fixing bugs, etc.
+
+### Fork
+The process of completely copying another user's remote repository to your own remote repository. This allows you to modify or improve the project independently without directly affecting the original.
+
+### Clone
+The process of downloading a copy of a remote repository to your local computer (local repository). This allows you to work on all files and change history of the remote repository locally.
+
+### Staging
+An intermediate step where modified files are collected before a commit. It's the area where you select and prepare the changes you intend to commit.
 
 ### Commit
-When you modify and save code on your computer, 'recording' those changes to Git is called 'committing'.
+The act of recording the changes prepared in the staging area to the local repository. Each commit has unique information such as the content of the change, author, and date, and represents the project state at a specific point in time.
 
 ### Push
-'Pushing' means 'uploading' the changes you've committed to your GitHub online repository.
-
-### Pull Request (PR)
-A 'Pull Request (PR)' is when you 'request to merge' the changes you've uploaded to your online repository into the 'original repository' that I created. Through this process, I can review your code and provide feedback.
+The process of uploading commits (changes) recorded in the local repository to the remote repository. This allows your local work to be shared with others.
 
 ### Merge
-This is the act of combining changes from one branch (or set of changes) into another. When your Pull Request is accepted, your changes are 'merged' into the original repository, combining your code with the main project code.
+The process of combining changes from two or more branches into one. For example, a merge operation is ultimately performed when a pull request is approved.
+
+### Pull Request (PR)
+A feature that allows you to request that changes from your working branch be merged into another branch (usually the main branch). It's a core part of the collaboration process, enabling code review and discussion of proposed changes.
